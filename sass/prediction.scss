@@ -1,0 +1,62 @@
+body {
+    background-image: url('../img/fon1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav {
+    .active {
+        a {
+            color: rgb(97, 166, 245) !important;
+        }
+    }
+     a{
+        color: rgb(194, 201, 241) !important;   
+     }  
+    
+}
+.collapse {
+    margin-bottom: 15px;
+}
+
+.countries {
+  margin-top: 30px;
+    .countries_item {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(224, 241, 241);
+        border: rgb(227, 240, 240) 2px solid;
+        border-radius: 5px;
+        .flag{
+            width: 15%;
+            height: 15%;
+          
+        }
+        .btn_country {
+            width: 7%;
+            height: 7%;
+           background-color: rgb(225, 243, 243);
+          text-align: center;
+        }
+        h5{
+            margin-right: 80px;
+        }
+    }
+    .league {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 10px;
+        background-color: rgb(224, 241, 241);
+        border: 1px solid rgb(224, 241, 241);
+        border-radius: 7px;
+        .logoLeague {
+            width: 10%;
+            height: 10%;
+            margin-right: 20px;
+        }
+        a{
+            color: rgb(31, 31, 31);
+        }
+    }
+}

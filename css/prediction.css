@@ -1,0 +1,120 @@
+body {
+  background-image: url("../img/fon1.jpg");
+  background-size: cover;
+  background-attachment: fixed; }
+
+nav .active a {
+  color: #61a6f5 !important; }
+nav a {
+  color: #c2c9f1 !important; }
+
+.collapse {
+  margin-bottom: 15px; }
+
+.countries {
+  margin-top: 30px; }
+  .countries .countries_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e0f1f1;
+    border: #e3f0f0 2px solid;
+    border-radius: 5px; }
+    .countries .countries_item .flag {
+      width: 15%;
+      height: 15%; }
+    .countries .countries_item .btn_country {
+      width: 7%;
+      height: 7%;
+      background-color: #e1f3f3;
+      text-align: center; }
+    .countries .countries_item h5 {
+      margin-right: 80px; }
+  .countries .league {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #e0f1f1;
+    border: 1px solid #e0f1f1;
+    border-radius: 7px; }
+    .countries .league .logoLeague {
+      width: 10%;
+      height: 10%;
+      margin-right: 20px; }
+    .countries .league a {
+      color: #1f1f1f; }
+
+      .k {
+        padding: 5px;
+        background-color:rgba(36, 71, 138, 0.4);
+        border: 1px solid  rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(255, 255, 251);
+        font-weight: 900;
+      }
+      .r {
+        padding: 5px;
+        background-color: rgba(36, 71, 138, 0.4);
+        border: 1px solid   rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color:rgb(255, 255, 251);
+        font-weight: 900;
+      }
+      .e {
+        padding: 5px;
+        background-color:   rgba(36, 71, 138, 0.4);
+        border: 1px solid   rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(241, 241, 241);
+        font-weight: 900;
+      }
+      .d {
+        padding: 5px;
+        background-color:   rgba(36, 71, 138, 0.4);
+        border: 1px solid    rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(241, 241, 241);
+        font-weight: 900;
+      }
+      .o {
+        padding: 5px;
+        background-color: rgba(36, 71, 138, 0.4);
+        border: 1px solid     rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(250, 250, 250);
+        font-weight: 900;
+      }
+      .dash {
+        padding: 5px;
+        background-color:   rgba(36, 71, 138, 0.4);
+        border: 1px solid    rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color:  rgb(250, 250, 250);
+        font-weight: 900;
+      }
+      .b {
+        padding: 5px;
+        background-color:rgba(36, 71, 138, 0.4);
+        border: 1px solid  rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(255, 248, 249);
+        font-weight: 900;
+      }
+      .E {
+        padding: 5px;
+        background-color:  rgba(36, 71, 138, 0.4);
+        border: 1px solid   rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color:  rgb(255, 248, 249);
+        font-weight: 900;
+      }
+      .t {
+        padding: 5px;
+        background-color: rgba(36, 71, 138, 0.4);
+        border: 1px solid   rgba(36, 71, 138, 0.4);
+        border-radius: 30px;
+        color: rgb(255, 248, 249);
+        font-weight: 900;
+      }
+/*# sourceMappingURL=prediction.css.map */

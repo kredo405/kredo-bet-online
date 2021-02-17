@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+body{
+    background-image: url('../img/fon1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav {
+    .active {
+        a {
+            color: rgb(97, 166, 245) !important;
+        }
+    }
+     a{
+        color: rgb(194, 201, 241) !important;   
+     }  
+    .btn_navs {
+      border: rgb(205, 225, 255) solid 1px !important;
+    }
+    
+    
+}
+.standics_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(217, 236, 230);
+    border: 1px solid rgb(217, 236, 230);
+    border-radius: 10px;
+    margin-top: 10px;
+    .logoStandicsItems {
+        width: 5%;
+        height: 5%;
+    }
+
+}
+.header_league {
+    margin-top: 20px;
+    color: rgb(198, 220, 253);
+    font-family: 'Teko', sans-serif;
+}
+.matchesTeams {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(217, 235, 229);
+    margin-top: 10px;
+    border: 1px solid rgb(217, 235, 229);
+    border-radius: 10px;
+    .team_name {
+        font-family: 'Patua One', cursive;
+    }
+    .logo_team {
+        width: 7%;
+        height: 7%;  
+    }
+ 
+}
+.start_end {
+    display: flex;
+    justify-content: space-around;
+
+    h5{
+font-size: 14px;
+color: blanchedalmond;
+    }
+    p{
+        font-size: 14px;
+        color: blanchedalmond;
+    }
+}
+.btn_matches {
+    width: 7%;
+    height: 7%;
+   background-color:  rgb(217, 235, 229);
+  text-align: center;
+  justify-content: center;
+}
+.team_forme_item {
+    display: flex;
+    justify-content: center;
+    img{
+        width: 7%;
+        height: 7%;
+    }
+}
+.poison_distribution {
+    margin-top: 20px;
+}
+.collapse {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.bets_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    border: rgb(204, 253, 204) 1px solid;
+    border-radius: 10px;
+    background-color: rgb(224, 245, 255);
+}
+.bets_item_value {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    border: rgb(204, 253, 204) 1px solid;
+    border-radius: 10px;
+    background-color:rgb(160, 247, 152);
+}
+.bets_item_dontValue {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    border: rgb(204, 253, 204) 1px solid;
+    border-radius: 10px;
+    background-color: rgb(224, 245, 255);
+}
+.checkBoxInputs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  p{
+    text-align: center;
+  }
+  input{
+      width: 17px;
+      height: 17px;
+  }
+
+}
+.card {
+    background-color:  rgb(235, 255, 249);
+}
+.btnCenter {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.centerBlock {
+    display: flex;
+    justify-content: center;  
+}
+.header_center {
+    text-align: center;
+}
+.boldParagraph {
+    font-weight: bold;
+}
+.violetParagraph {
+    color: rgb(31, 0, 71);
+}
+.orangeParagraph {
+    color: rgb(26, 53, 1);
+}
+.betsColorParagraph {
+    color: rgb(0, 92, 80);
+}
+.min_size {
+    font-size: 13px;
+}
+
+
+.logo_bets {
+    width: 30%;
+    height: 40%;
+    margin-right: 10px;
+}
+.nameTeam {
+    display: flex;
+    justify-content: center;
+}
+
+.forecast_item {
+    padding: 3px;
+    background-color: rgb(213, 231, 247);
+    border: 2px  rgb(219, 233, 245) solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    p{
+        font-weight: bold;
+        font-size: 17px;
+        font-family: 'Work Sans', sans-serif;
+        
+    }
+}
+.bets_mind {
+    display: flex;
+    justify-content: center;
+    button {
+        margin-bottom: 10px;
+    }
+  
+}
+.alert {
+    margin-top: 15px;
+}
